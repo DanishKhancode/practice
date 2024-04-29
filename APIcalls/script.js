@@ -25,18 +25,18 @@ const add = document.getElementById("add");
 
 
 
-let data = [];
-try {
-    const fatchiapi = async () => {
-        let fatchAPi = "https://jsonplaceholder.typicode.com/users/";
-        let res = await fetch(fatchAPi);
-        let response = await res.json();
-        data = response;
-        console.log('✌️data --->', response);
+// let data = [];
+// try {
+//     const fatchiapi = async () => {
+//         let fatchAPi = "https://jsonplaceholder.typicode.com/users/";
+//         let res = await fetch(fatchAPi);
+//         let response = await res.json();
+//         data = response;
+//         console.log('✌️data --->', response);
     
-    }
-    fatchiapi();
-}
-catch (error){
-    console.log(error);
-}
+//     }
+//     fatchiapi();
+// }
+// catch (error){
+//     console.log(error);
+// }
